@@ -28,3 +28,23 @@ if map.get('wade')==None:
 s = set([1,1,3,3,4,4])
 print s
 
+map2 = {"name":"yangzj","age":18}
+for key in map2:
+    print key
+
+for value in map2.itervalues():
+    print value
+
+for key,value in map2.iteritems():
+    print key,value 
+
+for ch in 'ABCD':
+    print ch 
+
+from collections import Iterable
+print isinstance('abc',Iterable)
+print isinstance([1,2,3],Iterable)
+
+for i,val in enumerate('abc'):
+    print i,val
+

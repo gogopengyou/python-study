@@ -23,3 +23,5 @@ print str[-3:-1]
 print str[:]
 print str[::2]
 
+
+
