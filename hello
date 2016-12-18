@@ -1,0 +1,19 @@
+
+python 
+>>>
+help()
+exit()
+
+print 'xxx'
+print "xxx"
+
+python hello.py 
+
+
+linux下可执行程序：
+1. first line add "#!/usr/bin/env python" 
+2. chmod a+x xxx.py 
+
+lint 程序检查工具
+
+
