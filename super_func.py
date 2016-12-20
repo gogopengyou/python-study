@@ -24,4 +24,15 @@ print reduce(reduce_func,[1,2,3,4,5])
 
 print reduce(reduce_func,map(funcname,[1,2,3,4,5]))
 
+# filter(filter_func, list)
+# sorted(sorted_func, list)
+# f vs f()
+
+f1 = lambda x: x*x
+print f1
+print f1(2)
+
+f2 = lambda : 2*2
+print f2
+print f2()
 
